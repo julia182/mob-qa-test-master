@@ -44,7 +44,7 @@ public class LoginActivity extends AppCompatActivity {
                     nextBtn.setVisibility(View.GONE);
                     loginBtn.setVisibility(View.VISIBLE);
                 } else {
-                    emailContainer.setError("Email Inválido");
+                    emailContainer.setError(getResources().getString(R.string.email_error_msg));
                 }
             }
         });
@@ -67,7 +67,7 @@ public class LoginActivity extends AppCompatActivity {
                                 }
                             });
                 } else {
-                    passwordContainer.setError("Senha Inválida");
+                    passwordContainer.setError(getResources().getString(R.string.pswd_error_msg));
                 }
             }
         });

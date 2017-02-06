@@ -10,6 +10,8 @@ android {
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -30,4 +32,14 @@ dependencies {
     compile 'com.android.support:design:23.4.0'
     compile 'io.reactivex:rxandroid:1.2.0'
     compile 'io.reactivex:rxjava:1.1.5'
+
+    //UI test dependencies
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
+    androidTestCompile 'com.android.support.test:runner:0.5'
+}
+configurations {
+//    androidTestCompile.exclude group: 'com.android.support', module: 'support-v4'
+//    androidTestCompile.exclude group: 'com.android.support', module: 'recyclerview-v7'
+//    androidTestCompile.exclude group: 'com.android.support', module: 'appcompat-v7'
+    androidTestCompile.exclude group: 'com.android.support', module: 'support-annotations'
 }
