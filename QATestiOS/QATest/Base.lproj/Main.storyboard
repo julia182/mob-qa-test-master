@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="1FT-6G-9bx">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="1FT-6G-9bx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Onboarding Page View Controller-->
@@ -24,24 +28,24 @@
                         <viewControllerLayoutGuide type="bottom" id="jAA-8M-tr8"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bfN-a6-qCe">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c7k-BH-zqj">
-                                <rect key="frame" x="0.0" y="228" width="320" height="112"/>
+                                <rect key="frame" x="0.0" y="277.5" width="375" height="112"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bL9-x9-T2F">
-                                        <rect key="frame" x="156" y="20" width="8" height="21"/>
+                                        <rect key="frame" x="183.5" y="20" width="8" height="21"/>
                                         <accessibility key="accessibilityConfiguration" identifier="page_number_1"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oi" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xB-ER-GPZ">
-                                        <rect key="frame" x="151" y="71" width="17" height="21"/>
+                                        <rect key="frame" x="178.5" y="71" width="17" height="21"/>
                                         <accessibility key="accessibilityConfiguration" identifier="page_number_1_text"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -54,7 +58,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.27843137254901962" green="0.18431372549019609" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.27843137254901962" green="0.18431372549019609" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="c7k-BH-zqj" firstAttribute="leading" secondItem="bfN-a6-qCe" secondAttribute="leading" id="0lM-tP-SHf"/>
                             <constraint firstAttribute="trailing" secondItem="c7k-BH-zqj" secondAttribute="trailing" id="Dvv-2j-OJ8"/>
@@ -76,28 +80,28 @@
                         <viewControllerLayoutGuide type="bottom" id="kxU-zd-oTm"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="cr5-ON-Izd">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UXV-fn-c6d">
-                                <rect key="frame" x="0.0" y="228" width="320" height="112"/>
+                                <rect key="frame" x="0.0" y="277.5" width="375" height="112"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9r-kw-5P4">
-                                        <rect key="frame" x="155" y="20" width="10" height="21"/>
+                                        <rect key="frame" x="182.5" y="20" width="10" height="21"/>
                                         <accessibility key="accessibilityConfiguration" identifier="page_number_2"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bem vindo" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YLR-2X-JL5">
-                                        <rect key="frame" x="119" y="71" width="81" height="21"/>
+                                        <rect key="frame" x="146.5" y="71" width="81" height="21"/>
                                         <accessibility key="accessibilityConfiguration" identifier="page_number_2_text"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="YLR-2X-JL5" secondAttribute="bottom" constant="20" id="CXT-wJ-kFL"/>
                                     <constraint firstItem="YLR-2X-JL5" firstAttribute="top" secondItem="X9r-kw-5P4" secondAttribute="bottom" constant="30" id="HCm-lx-b8t"/>
@@ -107,7 +111,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.49803921568627452" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.49803921568627452" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="UXV-fn-c6d" secondAttribute="trailing" id="5hd-oA-MoM"/>
                             <constraint firstItem="UXV-fn-c6d" firstAttribute="centerY" secondItem="cr5-ON-Izd" secondAttribute="centerY" id="JOY-9Q-4v2"/>
@@ -129,27 +133,27 @@
                         <viewControllerLayoutGuide type="bottom" id="Cqz-TI-fTG"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="xvx-4V-tp6">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UFV-q7-sTd">
-                                <rect key="frame" x="0.0" y="218" width="320" height="131"/>
+                                <rect key="frame" x="0.0" y="268" width="375" height="131"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MF0-zB-52V">
-                                        <rect key="frame" x="155" y="20" width="10" height="21"/>
+                                        <rect key="frame" x="182.5" y="20" width="10" height="21"/>
                                         <accessibility key="accessibilityConfiguration" identifier="page_number_3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SgK-LC-KHU">
-                                        <rect key="frame" x="118" y="71" width="83" height="40"/>
-                                        <color key="backgroundColor" red="0.2784313725" green="0.1843137255" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <rect key="frame" x="145.5" y="71" width="83" height="40"/>
+                                        <color key="backgroundColor" red="0.2784313725" green="0.1843137255" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <accessibility key="accessibilityConfiguration" identifier="page_number_3_button"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                         <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                                         <state key="normal" title="Acessar">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -161,7 +165,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="SgK-LC-KHU" secondAttribute="bottom" constant="20" id="8KM-EK-b6J"/>
                                     <constraint firstItem="SgK-LC-KHU" firstAttribute="top" secondItem="MF0-zB-52V" secondAttribute="bottom" constant="30" id="GnY-cN-pGV"/>
@@ -171,7 +175,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196078431372551" green="0.27058823529411763" blue="0.23137254901960785" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.90196078431372551" green="0.27058823529411763" blue="0.23137254901960785" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="UFV-q7-sTd" firstAttribute="centerY" secondItem="xvx-4V-tp6" secondAttribute="centerY" id="1ub-EV-21B"/>
                             <constraint firstItem="UFV-q7-sTd" firstAttribute="leading" secondItem="xvx-4V-tp6" secondAttribute="leading" id="8uZ-lC-rji"/>
@@ -192,7 +196,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="4iG-UN-qYS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.2784313725" green="0.1843137255" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.2784313725" green="0.1843137255" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="ihk-Ua-hYH" kind="relationship" relationship="rootViewController" id="s05-et-iz9"/>
@@ -211,21 +215,21 @@
                         <viewControllerLayoutGuide type="bottom" id="Fza-Ee-xLx"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ylh-el-gjL">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1e4-C3-anx" userLabel="Email View">
-                                <rect key="frame" x="20" y="52" width="280" height="105"/>
+                                <rect key="frame" x="20" y="52" width="335" height="105"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iwS-2a-PKu">
                                         <rect key="frame" x="0.0" y="0.0" width="37" height="30"/>
                                         <accessibility key="accessibilityConfiguration" identifier="email_label"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hbg-aP-fyr">
-                                        <rect key="frame" x="52" y="0.0" width="218" height="30"/>
+                                        <rect key="frame" x="52" y="0.0" width="273" height="30"/>
                                         <accessibility key="accessibilityConfiguration" identifier="email_textfield"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -234,17 +238,17 @@
                                         <rect key="frame" x="0.0" y="40" width="0.0" height="0.0"/>
                                         <accessibility key="accessibilityConfiguration" identifier="email_error_label"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                        <color key="textColor" red="0.90196078430000004" green="0.27058823529999998" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.90196078430000004" green="0.27058823529999998" blue="0.23137254900000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FYZ-EG-5Cm">
-                                        <rect key="frame" x="88" y="55" width="104" height="40"/>
-                                        <color key="backgroundColor" red="1" green="0.49803921568627452" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <rect key="frame" x="115.5" y="55" width="104" height="40"/>
+                                        <color key="backgroundColor" red="1" green="0.49803921568627452" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <accessibility key="accessibilityConfiguration" identifier="verify_email_button"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                         <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                                         <state key="normal" title="Prosseguir">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -256,7 +260,9 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <accessibility key="accessibilityConfiguration" identifier="email_view"/>
+                                <accessibility key="accessibilityConfiguration" identifier="email_view">
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
                                 <constraints>
                                     <constraint firstItem="iwS-2a-PKu" firstAttribute="leading" secondItem="1e4-C3-anx" secondAttribute="leading" id="19j-x7-tml"/>
                                     <constraint firstItem="Hbg-aP-fyr" firstAttribute="leading" secondItem="iwS-2a-PKu" secondAttribute="trailing" constant="15" id="9nc-2P-dcC"/>
@@ -273,17 +279,17 @@
                                 </constraints>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="amH-Mz-fEM" userLabel="Password View">
-                                <rect key="frame" x="20" y="177" width="280" height="98"/>
+                                <rect key="frame" x="20" y="177" width="335" height="98"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Senha:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbY-6N-XVT">
                                         <rect key="frame" x="0.0" y="7" width="42" height="16"/>
                                         <accessibility key="accessibilityConfiguration" identifier="password_label"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z8Y-Fw-VS4">
-                                        <rect key="frame" x="57" y="0.0" width="213" height="30"/>
+                                        <rect key="frame" x="57" y="0.0" width="268" height="30"/>
                                         <accessibility key="accessibilityConfiguration" identifier="password_textfield"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -292,17 +298,17 @@
                                         <rect key="frame" x="0.0" y="33" width="0.0" height="0.0"/>
                                         <accessibility key="accessibilityConfiguration" identifier="password_error_label"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                        <color key="textColor" red="0.90196078430000004" green="0.27058823529999998" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.90196078430000004" green="0.27058823529999998" blue="0.23137254900000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ym6-bO-GBo">
-                                        <rect key="frame" x="101" y="48" width="77" height="40"/>
-                                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <rect key="frame" x="128.5" y="48" width="77" height="40"/>
+                                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <accessibility key="accessibilityConfiguration" identifier="login_button"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                         <inset key="contentEdgeInsets" minX="16" minY="10" maxX="16" maxY="10"/>
                                         <state key="normal" title="Logar">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -314,7 +320,9 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <accessibility key="accessibilityConfiguration" identifier="password_view"/>
+                                <accessibility key="accessibilityConfiguration" identifier="password_view">
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
                                 <constraints>
                                     <constraint firstItem="vio-RX-bzS" firstAttribute="top" secondItem="pbY-6N-XVT" secondAttribute="bottom" constant="10" id="90J-RI-TbO"/>
                                     <constraint firstItem="ym6-bO-GBo" firstAttribute="top" secondItem="vio-RX-bzS" secondAttribute="bottom" constant="15" id="EVZ-rF-cUU"/>
@@ -330,7 +338,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.2784313725" green="0.1843137255" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.2784313725" green="0.1843137255" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="1e4-C3-anx" firstAttribute="top" secondItem="6EF-b2-4Te" secondAttribute="bottom" constant="52" id="GAc-bS-Ww5"/>
                             <constraint firstItem="amH-Mz-fEM" firstAttribute="trailing" secondItem="1e4-C3-anx" secondAttribute="trailing" id="Okg-Gj-JVI"/>
@@ -363,7 +371,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="8Dn-xo-n1I">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.2784313725" green="0.1843137255" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.2784313725" green="0.1843137255" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="Xr1-cp-SSB" kind="relationship" relationship="rootViewController" id="cTV-pq-FOz"/>
@@ -382,18 +390,18 @@
                         <viewControllerLayoutGuide type="bottom" id="X8K-z8-bcV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TnN-ze-fSU">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lid-2U-F7r" userLabel="Email Label">
-                                <rect key="frame" x="139" y="241" width="42" height="21"/>
+                                <rect key="frame" x="166.5" y="291" width="42" height="21"/>
                                 <accessibility key="accessibilityConfiguration" identifier="greeting_label"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.2784313725" green="0.1843137255" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.2784313725" green="0.1843137255" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Lid-2U-F7r" firstAttribute="centerX" secondItem="TnN-ze-fSU" secondAttribute="centerX" id="4jK-gh-SN0"/>
                             <constraint firstItem="Lid-2U-F7r" firstAttribute="centerY" secondItem="TnN-ze-fSU" secondAttribute="centerY" id="caa-Ap-iKh"/>
@@ -427,4 +435,9 @@
             <point key="canvasLocation" x="39" y="-604"/>
         </scene>
     </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
 </document>
